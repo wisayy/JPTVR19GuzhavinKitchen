@@ -27,7 +27,7 @@ public class SaleProduct {
     public History takeOnBook(Product[] products, Customer[] customers) {
         History history = new History();
         Customer customer = new Customer();
-        System.out.println("--- Список читателей ---");
+        System.out.println("--- Список покупателя ---");
             customerManager.printListCustomers(customers);
             System.out.print("Выберите номер Покупателя: ");
             int customerNumber = scanner.nextInt();
